@@ -29,3 +29,14 @@ Paddle Pub email headers use a light ground.
 Commit it and it is live at
 `https://tourscale-repos.github.io/email-assets/<path>` within a minute or so.
 Keep filenames stable: they are referenced from templates already sent.
+
+## Photos
+
+`photos/<brand>/<n>-<slot>.jpg` — hero image for each email in that brand's drip.
+
+Exported at 1072px wide (2x a 536px display column) and cropped to a consistent
+3:2, so the sequence reads as one set. JPEG q78, progressive, metadata stripped,
+around 100-140KB each.
+
+Sources are each brand site's own franchise photography, so the emails show the
+same imagery a candidate sees on the website.
