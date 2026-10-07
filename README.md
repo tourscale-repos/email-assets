@@ -1,5 +1,10 @@
 # TourScale email assets
 
+**Retired — add nothing here.** Every file now lives in
+[`tourscale-email-assets`](https://github.com/tourscale-repos/tourscale-email-assets)
+(logos under `brands/<brand>/`, drip photos under `drips/<brand>/`). This repo stays
+published only because emails already sent reference its URLs.
+
 Static, publicly readable assets referenced by CRM email templates.
 
 Email clients cannot load images from a private host and many (Outlook's Word
